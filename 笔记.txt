@@ -1,0 +1,26 @@
+
+git clone 克隆仓库
+1.git pull 工作前同步远端仓库
+2.新建分支git branch dev
+3.切换分支git checkout dev 
+4.coding... master -> 保持时刻能够运行
+5.git add .
+6.git commit -m "add a new file"
+7.切换到主分支git checkout master
+8.主分支与开发分支合并git merge dev
+9.git push -u origin master:master
+
+git remote -v 查看远程仓库
+git rm        删除仓库文件
+git status    查看当前状态--获取提示
+
+
+处理文件同步冲突：
+	git fetch 抓取远程仓库数据
+	git merge origin/master
+同文件代码冲突 ： 保留其中一个	
+
+	
+	
+	
+	
